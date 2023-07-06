@@ -1,0 +1,12 @@
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\bin\Debug\net6.0\FootTeamTracker.Web.Services.deps.json
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\bin\Debug\net6.0\FootTeamTracker.Web.Services.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\bin\Debug\net6.0\FootTeamTracker.Web.Services.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\FootTeamTracker.Web.Services.csproj.AssemblyReference.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\FootTeamTracker.Web.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\FootTeamTracker.Web.Services.AssemblyInfoInputs.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\FootTeamTracker.Web.Services.AssemblyInfo.cs
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\FootTeamTracker.Web.Services.csproj.CoreCompileInputs.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\FootTeamTracker.Web.Services.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\refint\FootTeamTracker.Web.Services.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\FootTeamTracker.Web.Services.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Services\obj\Debug\net6.0\ref\FootTeamTracker.Web.Services.dll

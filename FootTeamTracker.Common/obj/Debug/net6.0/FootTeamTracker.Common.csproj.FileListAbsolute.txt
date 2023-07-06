@@ -1,0 +1,12 @@
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\bin\Debug\net6.0\FootTeamTracker.Common.deps.json
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\bin\Debug\net6.0\FootTeamTracker.Common.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\bin\Debug\net6.0\FootTeamTracker.Common.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\FootTeamTracker.Common.csproj.AssemblyReference.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\FootTeamTracker.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\FootTeamTracker.Common.AssemblyInfoInputs.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\FootTeamTracker.Common.AssemblyInfo.cs
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\FootTeamTracker.Common.csproj.CoreCompileInputs.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\FootTeamTracker.Common.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\refint\FootTeamTracker.Common.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\FootTeamTracker.Common.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Common\obj\Debug\net6.0\ref\FootTeamTracker.Common.dll

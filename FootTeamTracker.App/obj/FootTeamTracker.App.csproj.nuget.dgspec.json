@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\FootTeamTracker.App.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\FootTeamTracker.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\FootTeamTracker.App.csproj",
+        "projectName": "FootTeamTracker.App",
+        "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\FootTeamTracker.App.csproj",
+        "packagesPath": "C:\\Users\\Niki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Niki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Common\\FootTeamTracker.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Common\\FootTeamTracker.Common.csproj",
+        "projectName": "FootTeamTracker.Common",
+        "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Common\\FootTeamTracker.Common.csproj",
+        "packagesPath": "C:\\Users\\Niki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Niki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data.Models\\FootTeamTracker.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data.Models\\FootTeamTracker.Data.Models.csproj",
+        "projectName": "FootTeamTracker.Data.Models",
+        "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data.Models\\FootTeamTracker.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\Niki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Niki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Common\\FootTeamTracker.Common.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Common\\FootTeamTracker.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj",
+        "projectName": "FootTeamTracker.Data",
+        "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj",
+        "packagesPath": "C:\\Users\\Niki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Niki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data.Models\\FootTeamTracker.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data.Models\\FootTeamTracker.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
