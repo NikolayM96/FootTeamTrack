@@ -8,6 +8,6 @@
 //{
 //	public static class Configuration
 //	{
-//		public static string ConnectionString = @"Server=DESKTOP-NHL0NQ7;Database=FootballTeamTracker;Integrated Security=True;Encrypt=False";
+//		public static string ConnectionString = @".;Database=FootballTeamTracker;Integrated Security=True;Encrypt=False";
 //	}
 //}
