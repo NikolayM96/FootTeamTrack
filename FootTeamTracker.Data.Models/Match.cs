@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -30,10 +31,12 @@ namespace FootTeamTracker.Data.Models
 	
 
 		[Required]
-		public string StadiumName { get; set; } = null!;
+		public int StadiumId { get; set; }
 
 
-
+		[Required]
+		[ForeignKey(nameof(StadiumId))]
+		public virtual Stadium Stadium { get; set; } = null!;
 
 
 		

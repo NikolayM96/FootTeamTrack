@@ -30,8 +30,13 @@ namespace FootTeamTracker.Data.Models
 		public int SeatingCapacity { get; set; }
 
 
+		public ICollection<Ticket> Tickets { get; set; } = new HashSet<Ticket>();
+
+		public ICollection<Match> Matches { get; set; } = new HashSet<Match>();
 
 
-		
+
+
+
 	}
 }

@@ -19,4 +19,8 @@
     <ProjectReference Include="..\FootTeamTracker.Data.Models\FootTeamTracker.Data.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Configurations\" />
+  </ItemGroup>
+
 </Project>

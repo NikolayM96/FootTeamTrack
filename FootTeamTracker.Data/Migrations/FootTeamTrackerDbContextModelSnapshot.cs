@@ -197,11 +197,12 @@ namespace FootTeamTracker.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("StadiumName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("StadiumId")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("StadiumId");
 
                     b.ToTable("Matches");
                 });
@@ -348,6 +349,9 @@ namespace FootTeamTracker.Data.Migrations
                     b.Property<bool>("IsReserved")
                         .HasColumnType("bit");
 
+                    b.Property<int>("StadiumId")
+                        .HasColumnType("int");
+
                     b.Property<Guid?>("TicketHolderId")
                         .HasColumnType("uniqueidentifier");
 
@@ -355,6 +359,8 @@ namespace FootTeamTracker.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("StadiumId");
 
                     b.HasIndex("TicketHolderId");
 
@@ -632,6 +638,17 @@ namespace FootTeamTracker.Data.Migrations
                     b.Navigation("Player");
                 });
 
+            modelBuilder.Entity("FootTeamTracker.Data.Models.Match", b =>
+                {
+                    b.HasOne("FootTeamTracker.Data.Models.Stadium", "Stadium")
+                        .WithMany("Matches")
+                        .HasForeignKey("StadiumId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Stadium");
+                });
+
             modelBuilder.Entity("FootTeamTracker.Data.Models.News", b =>
                 {
                     b.HasOne("FootTeamTracker.Data.Models.Team", "Team")
@@ -673,9 +690,17 @@ namespace FootTeamTracker.Data.Migrations
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.Ticket", b =>
                 {
+                    b.HasOne("FootTeamTracker.Data.Models.Stadium", "Stadium")
+                        .WithMany("Tickets")
+                        .HasForeignKey("StadiumId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("FootTeamTracker.Data.Models.AppUser", "TicketHolder")
                         .WithMany("TicketsReserved")
                         .HasForeignKey("TicketHolderId");
+
+                    b.Navigation("Stadium");
 
                     b.Navigation("TicketHolder");
                 });
@@ -761,6 +786,13 @@ namespace FootTeamTracker.Data.Migrations
             modelBuilder.Entity("FootTeamTracker.Data.Models.Player", b =>
                 {
                     b.Navigation("Injury");
+                });
+
+            modelBuilder.Entity("FootTeamTracker.Data.Models.Stadium", b =>
+                {
+                    b.Navigation("Matches");
+
+                    b.Navigation("Tickets");
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.Team", b =>
