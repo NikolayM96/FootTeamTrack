@@ -1,0 +1,12 @@
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Web.ViewModels.deps.json
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Web.ViewModels.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Web.ViewModels.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.csproj.AssemblyReference.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.AssemblyInfo.cs
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\refint\FootTeamTracker.Web.ViewModels.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\ref\FootTeamTracker.Web.ViewModels.dll

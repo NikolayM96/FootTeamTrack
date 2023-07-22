@@ -34,7 +34,7 @@ namespace FootTeamTracker.Data.Models
         public int StadiumId { get; set; }
 
 
-        [Required]
+        
         [ForeignKey(nameof(StadiumId))]
         public Stadium Stadium { get; set; } = null!;
 	}

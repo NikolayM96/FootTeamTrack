@@ -34,7 +34,7 @@ namespace FootTeamTracker.Data.Models
 		[Required]
 		public int TeamId { get; set; }
 
-		[Required]
+		
 		[ForeignKey(nameof(TeamId))]
 		public virtual Team Team { get; set; } = null!;
 

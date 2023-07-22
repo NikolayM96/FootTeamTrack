@@ -26,7 +26,7 @@ namespace FootTeamTracker.Data.Models
 		[Required]
 		public int PlayerId { get; set; }
 
-		[Required]
+	
 		[ForeignKey(nameof(PlayerId))]
 		public Player Player { get; set; } = null!;
 	}

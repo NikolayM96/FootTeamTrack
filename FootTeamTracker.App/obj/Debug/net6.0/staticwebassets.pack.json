@@ -5,6 +5,46 @@
       "PackagePath": "staticwebassets\\FootTeamTracker.Web.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\Barcelona-Logo-PNG1.png",
+      "PackagePath": "staticwebassets\\Images\\Barcelona-Logo-PNG1.png"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\Champions.jpg",
+      "PackagePath": "staticwebassets\\Images\\Champions.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\Community.png",
+      "PackagePath": "staticwebassets\\Images\\Community.png"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\Friendly-Match.jpg",
+      "PackagePath": "staticwebassets\\Images\\Friendly-Match.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\New-Signing.jpeg",
+      "PackagePath": "staticwebassets\\Images\\New-Signing.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\PSG-Logo-PNG1.png",
+      "PackagePath": "staticwebassets\\Images\\PSG-Logo-PNG1.png"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\PepGuardiolaManCity.jpg",
+      "PackagePath": "staticwebassets\\Images\\PepGuardiolaManCity.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\Real_Madrid_logo_PNG5.png",
+      "PackagePath": "staticwebassets\\Images\\Real_Madrid_logo_PNG5.png"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\arsenal_logo_PNG1.png",
+      "PackagePath": "staticwebassets\\Images\\arsenal_logo_PNG1.png"
+    },
+    {
+      "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\Images\\manchester_united_logo_PNG3.png",
+      "PackagePath": "staticwebassets\\Images\\manchester_united_logo_PNG3.png"
+    },
+    {
       "Id": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

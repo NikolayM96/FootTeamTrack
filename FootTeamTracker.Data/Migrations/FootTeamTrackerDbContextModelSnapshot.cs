@@ -17,7 +17,7 @@ namespace FootTeamTracker.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.13")
+                .HasAnnotation("ProductVersion", "6.0.18")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -176,6 +176,48 @@ namespace FootTeamTracker.Data.Migrations
                         .IsUnique();
 
                     b.ToTable("Injuries");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Date = new DateTime(2021, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ExpectedRecoveryTime = new TimeSpan(12599999400),
+                            PlayerId = 1,
+                            Type = "Sprained Ankle"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Date = new DateTime(2021, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ExpectedRecoveryTime = new TimeSpan(9599999400),
+                            PlayerId = 2,
+                            Type = "Muscle Strain"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Date = new DateTime(2021, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ExpectedRecoveryTime = new TimeSpan(8399999400),
+                            PlayerId = 3,
+                            Type = "Hamstring Injury"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Date = new DateTime(2021, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ExpectedRecoveryTime = new TimeSpan(7199999400),
+                            PlayerId = 4,
+                            Type = "Knee Ligament Tear"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Date = new DateTime(2021, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ExpectedRecoveryTime = new TimeSpan(2399999400),
+                            PlayerId = 5,
+                            Type = "Concussion"
+                        });
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.Match", b =>
@@ -205,6 +247,128 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasIndex("StadiumId");
 
                     b.ToTable("Matches");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 13,
+                            AwayTeamName = "Barcelona",
+                            Date = new DateTime(2024, 2, 7, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5041),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 1
+                        },
+                        new
+                        {
+                            Id = 14,
+                            AwayTeamName = "Manchester United",
+                            Date = new DateTime(2024, 2, 29, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5092),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 1
+                        },
+                        new
+                        {
+                            Id = 15,
+                            AwayTeamName = "Barcelona",
+                            Date = new DateTime(2024, 2, 6, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5098),
+                            HomeTeamName = "Real Madrid",
+                            StadiumId = 1
+                        },
+                        new
+                        {
+                            Id = 1,
+                            AwayTeamName = "Barcelona",
+                            Date = new DateTime(2024, 3, 11, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5103),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AwayTeamName = "PSG",
+                            Date = new DateTime(2024, 3, 13, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5110),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AwayTeamName = "Barcelona",
+                            Date = new DateTime(2024, 3, 14, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5115),
+                            HomeTeamName = "PSG",
+                            StadiumId = 2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AwayTeamName = "Real Madrid",
+                            Date = new DateTime(2024, 9, 5, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5120),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 3
+                        },
+                        new
+                        {
+                            Id = 5,
+                            AwayTeamName = "PSG",
+                            Date = new DateTime(2024, 5, 17, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5125),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 3
+                        },
+                        new
+                        {
+                            Id = 6,
+                            AwayTeamName = "Real Madrid",
+                            Date = new DateTime(2024, 8, 25, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5132),
+                            HomeTeamName = "Manchester United",
+                            StadiumId = 3
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AwayTeamName = "Barcelona",
+                            Date = new DateTime(2023, 10, 11, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5137),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 4
+                        },
+                        new
+                        {
+                            Id = 8,
+                            AwayTeamName = "PSG",
+                            Date = new DateTime(2023, 10, 20, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5142),
+                            HomeTeamName = "Manchester United",
+                            StadiumId = 4
+                        },
+                        new
+                        {
+                            Id = 9,
+                            AwayTeamName = "Barcelona",
+                            Date = new DateTime(2024, 12, 3, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5146),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 4
+                        },
+                        new
+                        {
+                            Id = 10,
+                            AwayTeamName = "Barcelona",
+                            Date = new DateTime(2024, 1, 29, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5151),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 5
+                        },
+                        new
+                        {
+                            Id = 11,
+                            AwayTeamName = "PSG",
+                            Date = new DateTime(2024, 2, 28, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5156),
+                            HomeTeamName = "Arsenal",
+                            StadiumId = 5
+                        },
+                        new
+                        {
+                            Id = 12,
+                            AwayTeamName = "Barcelona",
+                            Date = new DateTime(2023, 10, 27, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5161),
+                            HomeTeamName = "PSG",
+                            StadiumId = 5
+                        });
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.News", b =>
@@ -241,6 +405,17 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasIndex("TeamId");
 
                     b.ToTable("News");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "The team secured a victory in the championship match.",
+                            Date = new DateTime(2021, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            ImageUrl = "Champions.jpg",
+                            TeamId = 1,
+                            Title = "Team Wins Championship"
+                        });
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.Player", b =>
@@ -279,6 +454,173 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasIndex("TeamId");
 
                     b.ToTable("Players");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            DateOfBirth = new DateTime(1995, 4, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 10,
+                            Goals = 5,
+                            InjuryId = 0,
+                            Name = "Bukayo Saka",
+                            Position = 0,
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            DateOfBirth = new DateTime(1998, 8, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 12,
+                            Goals = 2,
+                            InjuryId = 0,
+                            Name = "Martin Odegaard",
+                            Position = 2,
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 3,
+                            DateOfBirth = new DateTime(1993, 2, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 8,
+                            Goals = 0,
+                            InjuryId = 0,
+                            Name = "Ben White",
+                            Position = 1,
+                            TeamId = 1
+                        },
+                        new
+                        {
+                            Id = 4,
+                            DateOfBirth = new DateTime(1997, 11, 3, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 15,
+                            Goals = 10,
+                            InjuryId = 0,
+                            Name = "Lionel Messi",
+                            Position = 0,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 5,
+                            DateOfBirth = new DateTime(1990, 6, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 5,
+                            Goals = 0,
+                            InjuryId = 0,
+                            Name = "David De Gea",
+                            Position = 3,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 6,
+                            DateOfBirth = new DateTime(1985, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 900,
+                            Goals = 800,
+                            InjuryId = 0,
+                            Name = "Cristiano Ronaldo",
+                            Position = 0,
+                            TeamId = 2
+                        },
+                        new
+                        {
+                            Id = 7,
+                            DateOfBirth = new DateTime(1992, 2, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 500,
+                            Goals = 300,
+                            InjuryId = 0,
+                            Name = "Neymar Jr",
+                            Position = 0,
+                            TeamId = 3
+                        },
+                        new
+                        {
+                            Id = 8,
+                            DateOfBirth = new DateTime(1991, 7, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 300,
+                            Goals = 20,
+                            InjuryId = 0,
+                            Name = "Virgil van Dijk",
+                            Position = 1,
+                            TeamId = 3
+                        },
+                        new
+                        {
+                            Id = 9,
+                            DateOfBirth = new DateTime(1991, 6, 28, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 400,
+                            Goals = 100,
+                            InjuryId = 0,
+                            Name = "Kevin De Bruyne",
+                            Position = 2,
+                            TeamId = 3
+                        },
+                        new
+                        {
+                            Id = 10,
+                            DateOfBirth = new DateTime(1998, 12, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 200,
+                            Goals = 150,
+                            InjuryId = 0,
+                            Name = "Kylian Mbappé",
+                            Position = 0,
+                            TeamId = 4
+                        },
+                        new
+                        {
+                            Id = 11,
+                            DateOfBirth = new DateTime(1988, 8, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 600,
+                            Goals = 400,
+                            InjuryId = 0,
+                            Name = "Robert Lewandowski",
+                            Position = 0,
+                            TeamId = 4
+                        },
+                        new
+                        {
+                            Id = 12,
+                            DateOfBirth = new DateTime(1986, 3, 30, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 700,
+                            Goals = 100,
+                            InjuryId = 0,
+                            Name = "Sergio Ramos",
+                            Position = 1,
+                            TeamId = 4
+                        },
+                        new
+                        {
+                            Id = 13,
+                            DateOfBirth = new DateTime(1991, 2, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 400,
+                            Goals = 50,
+                            InjuryId = 0,
+                            Name = "Kevin Mbappe",
+                            Position = 2,
+                            TeamId = 5
+                        },
+                        new
+                        {
+                            Id = 14,
+                            DateOfBirth = new DateTime(1992, 10, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 300,
+                            Goals = 0,
+                            InjuryId = 0,
+                            Name = "Alisson Becker",
+                            Position = 3,
+                            TeamId = 5
+                        },
+                        new
+                        {
+                            Id = 15,
+                            DateOfBirth = new DateTime(1992, 6, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            GamesPlayed = 400,
+                            Goals = 200,
+                            InjuryId = 0,
+                            Name = "Mohamed Salah",
+                            Position = 0,
+                            TeamId = 1
+                        });
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.Stadium", b =>
@@ -305,6 +647,43 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Stadiums");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Location = "London, England",
+                            Name = "Wembley Stadium",
+                            SeatingCapacity = 90000
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Location = "Barcelona, Spain",
+                            Name = "Camp Nou",
+                            SeatingCapacity = 99354
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Location = "Munich, Germany",
+                            Name = "Allianz Arena",
+                            SeatingCapacity = 75000
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Location = "Manchester, England",
+                            Name = "Old Trafford",
+                            SeatingCapacity = 74609
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Location = "Milan, Italy",
+                            Name = "San Siro",
+                            SeatingCapacity = 80018
+                        });
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.Team", b =>
@@ -338,6 +717,43 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasIndex("StadiumId");
 
                     b.ToTable("Teams");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Logo = "arsenal_logo_PNG1.png",
+                            Name = "Arsenal",
+                            StadiumId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Logo = "Barcelona-Logo-PNG1.png",
+                            Name = "Barcelona",
+                            StadiumId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Logo = "PSG-Logo-PNG1.png",
+                            Name = "PSG",
+                            StadiumId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Logo = "Real_Madrid_logo_PNG5.png",
+                            Name = "Real Madrid",
+                            StadiumId = 4
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Logo = "manchester_united_logo_PNG3.png",
+                            Name = "Manchester United",
+                            StadiumId = 5
+                        });
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.Ticket", b =>
@@ -365,6 +781,116 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasIndex("TicketHolderId");
 
                     b.ToTable("Tickets");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("9e3dc5a5-f071-4612-b12d-aff54de53d2d"),
+                            IsReserved = false,
+                            StadiumId = 1
+                        },
+                        new
+                        {
+                            Id = new Guid("c0ecc93e-354f-4162-a2b9-f440b0108b4b"),
+                            IsReserved = false,
+                            StadiumId = 1
+                        },
+                        new
+                        {
+                            Id = new Guid("1792adaa-353f-427e-aa87-ac9e40380930"),
+                            IsReserved = false,
+                            StadiumId = 1
+                        },
+                        new
+                        {
+                            Id = new Guid("56b2a520-1063-4b75-8368-cd04fc6c32e9"),
+                            IsReserved = false,
+                            StadiumId = 1
+                        },
+                        new
+                        {
+                            Id = new Guid("8719a440-0d83-4bcf-bb94-6b1b635f421b"),
+                            IsReserved = false,
+                            StadiumId = 2
+                        },
+                        new
+                        {
+                            Id = new Guid("f9285faa-98cb-45da-b7aa-aed62f3d7c3f"),
+                            IsReserved = false,
+                            StadiumId = 2
+                        },
+                        new
+                        {
+                            Id = new Guid("83290e5a-bc34-4afe-b8a8-3676ae5f0c35"),
+                            IsReserved = false,
+                            StadiumId = 2
+                        },
+                        new
+                        {
+                            Id = new Guid("f4f7d341-f05b-4624-ba98-2e46585337da"),
+                            IsReserved = false,
+                            StadiumId = 2
+                        },
+                        new
+                        {
+                            Id = new Guid("3241f2bb-ca45-4544-a500-0d09e6913d7e"),
+                            IsReserved = false,
+                            StadiumId = 3
+                        },
+                        new
+                        {
+                            Id = new Guid("8e789b53-78e7-4c6b-8267-8d9531d09bfd"),
+                            IsReserved = false,
+                            StadiumId = 3
+                        },
+                        new
+                        {
+                            Id = new Guid("9fbc0007-740f-4200-8be4-2d7b5084f290"),
+                            IsReserved = false,
+                            StadiumId = 3
+                        },
+                        new
+                        {
+                            Id = new Guid("d18827a9-4b5a-41c3-af03-ea73547570f2"),
+                            IsReserved = false,
+                            StadiumId = 3
+                        },
+                        new
+                        {
+                            Id = new Guid("1b6e7a98-d40f-41f5-8eb5-d69c818a98b5"),
+                            IsReserved = false,
+                            StadiumId = 4
+                        },
+                        new
+                        {
+                            Id = new Guid("b14a791c-206b-48d0-9e71-c3d12aaca728"),
+                            IsReserved = false,
+                            StadiumId = 4
+                        },
+                        new
+                        {
+                            Id = new Guid("c63a8a13-ac8b-4a1b-97da-7c71cbe63401"),
+                            IsReserved = false,
+                            StadiumId = 4
+                        },
+                        new
+                        {
+                            Id = new Guid("1394170d-5678-4e86-9604-b010d584c4e5"),
+                            IsReserved = false,
+                            StadiumId = 5
+                        },
+                        new
+                        {
+                            Id = new Guid("dede3d93-7e4f-4421-96b9-17c221e186e7"),
+                            IsReserved = false,
+                            StadiumId = 5
+                        },
+                        new
+                        {
+                            Id = new Guid("422060de-7ec0-461a-899a-e1cd2116e6d5"),
+                            IsReserved = false,
+                            StadiumId = 5
+                        });
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.TrainingSession", b =>
@@ -399,6 +925,53 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasIndex("TeamId");
 
                     b.ToTable("TrainingSessions");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Date = new DateTime(2021, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Training Ground 1",
+                            Objectives = "Improve passing and teamwork",
+                            TeamId = 1,
+                            Time = new TimeSpan(0, 8, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Date = new DateTime(2021, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Training Ground 2",
+                            Objectives = "Focus on defensive drills",
+                            TeamId = 2,
+                            Time = new TimeSpan(0, 4, 0, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Date = new DateTime(2021, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Training Ground 3",
+                            Objectives = "Improve fitness and conditioning",
+                            TeamId = 3,
+                            Time = new TimeSpan(0, 6, 30, 0, 0)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Date = new DateTime(2021, 4, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Training Ground 4",
+                            Objectives = "Work on set-piece routines",
+                            TeamId = 4,
+                            Time = new TimeSpan(0, 6, 20, 15, 0)
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Date = new DateTime(2021, 5, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Location = "Training Ground 5",
+                            Objectives = "Improve shooting accuracy",
+                            TeamId = 5,
+                            Time = new TimeSpan(0, 1, 55, 22, 0)
+                        });
                 });
 
             modelBuilder.Entity("FootTeamTracker.Data.Models.Trophy", b =>
@@ -430,6 +1003,48 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasIndex("TeamId");
 
                     b.ToTable("Trophies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "The FIFA World Cup is the most prestigious international football tournament held every four years.",
+                            Name = "FIFA World Cup",
+                            TeamId = 1,
+                            Year = new DateTime(2018, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "The UEFA Champions League is an annual club football competition organized by the Union of European Football Associations (UEFA).",
+                            Name = "UEFA Champions League",
+                            TeamId = 2,
+                            Year = new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "The FIFA Club World Cup is an international men's association football competition organized by the Fédération Internationale de Football Association (FIFA).",
+                            Name = "FIFA Club World Cup",
+                            TeamId = 3,
+                            Year = new DateTime(2020, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "The UEFA European Championship is the primary association football competition contested by the senior men's national teams of the members of UEFA.",
+                            Name = "UEFA European Championship",
+                            TeamId = 4,
+                            Year = new DateTime(2021, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Description = "The Premier League is the top professional football league in England.",
+                            Name = "Premier League",
+                            TeamId = 5,
+                            Year = new DateTime(2021, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole<System.Guid>", b =>
