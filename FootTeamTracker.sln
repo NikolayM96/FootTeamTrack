@@ -15,13 +15,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{13225F0F-23D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{8B899C83-B315-4969-A2C1-DEC2AEBBEC4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootTeamTracker.Web.Infrastructure", "FootTeamTracker.Web.Infrastructure\FootTeamTracker.Web.Infrastructure.csproj", "{3F3B3017-175E-4B88-872F-9CB827A91E39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootTeamTracker.Web.Infrastructure", "FootTeamTracker.Web.Infrastructure\FootTeamTracker.Web.Infrastructure.csproj", "{3F3B3017-175E-4B88-872F-9CB827A91E39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootTeamTracker.Web.ViewModels", "FootTeamTracker.Web.ViewModels\FootTeamTracker.Web.ViewModels.csproj", "{6CEE89AF-B385-472B-9E47-7C401426340A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootTeamTracker.Web.ViewModels", "FootTeamTracker.Web.ViewModels\FootTeamTracker.Web.ViewModels.csproj", "{6CEE89AF-B385-472B-9E47-7C401426340A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9D367EF0-6595-4CF8-A42B-B03D59319FC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootTeamTracker.Services.Models", "FootTeamTracker.Services.Models\FootTeamTracker.Services.Models.csproj", "{698F3711-149B-45BD-933C-0FF03C7E2356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootTeamTracker.Services.Models", "FootTeamTracker.Services.Models\FootTeamTracker.Services.Models.csproj", "{698F3711-149B-45BD-933C-0FF03C7E2356}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootTeamTracker.Services.Data", "FootTeamTracker.Services.Data\FootTeamTracker.Services.Data.csproj", "{DE173789-2DEC-4502-8DF7-84A65CEA38A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootTeamTracker.Services.Mapping", "FootTeamTracker.Services.Mapping\FootTeamTracker.Services.Mapping.csproj", "{2FECF783-178A-4A52-AF42-F9760B43EDB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{698F3711-149B-45BD-933C-0FF03C7E2356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{698F3711-149B-45BD-933C-0FF03C7E2356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{698F3711-149B-45BD-933C-0FF03C7E2356}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE173789-2DEC-4502-8DF7-84A65CEA38A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE173789-2DEC-4502-8DF7-84A65CEA38A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE173789-2DEC-4502-8DF7-84A65CEA38A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE173789-2DEC-4502-8DF7-84A65CEA38A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FECF783-178A-4A52-AF42-F9760B43EDB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FECF783-178A-4A52-AF42-F9760B43EDB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FECF783-178A-4A52-AF42-F9760B43EDB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FECF783-178A-4A52-AF42-F9760B43EDB8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +80,8 @@ Global
 		{3F3B3017-175E-4B88-872F-9CB827A91E39} = {13225F0F-23DE-4DE0-A62C-B518D9ECF0F0}
 		{6CEE89AF-B385-472B-9E47-7C401426340A} = {13225F0F-23DE-4DE0-A62C-B518D9ECF0F0}
 		{698F3711-149B-45BD-933C-0FF03C7E2356} = {9D367EF0-6595-4CF8-A42B-B03D59319FC8}
+		{DE173789-2DEC-4502-8DF7-84A65CEA38A9} = {9D367EF0-6595-4CF8-A42B-B03D59319FC8}
+		{2FECF783-178A-4A52-AF42-F9760B43EDB8} = {9D367EF0-6595-4CF8-A42B-B03D59319FC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E539DD51-DCF1-4C9F-A9A5-F3F7E80D55CF}

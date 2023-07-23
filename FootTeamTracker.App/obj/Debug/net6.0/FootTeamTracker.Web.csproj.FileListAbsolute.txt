@@ -3,7 +3,6 @@ C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\FootTeamTracker.Web.AssemblyInfoInputs.cache
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\FootTeamTracker.Web.AssemblyInfo.cs
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\FootTeamTracker.Web.csproj.CoreCompileInputs.cache
-C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\FootTeamTracker.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\FootTeamTracker.Web.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\FootTeamTracker.Web.RazorAssemblyInfo.cache
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\FootTeamTracker.Web.RazorAssemblyInfo.cs
@@ -266,3 +265,10 @@ C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Web.ViewModels.dll
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Web.Infrastructure.pdb
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Web.ViewModels.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Data.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Mapping.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Models.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Data.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Models.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Mapping.pdb

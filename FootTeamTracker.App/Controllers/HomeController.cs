@@ -1,4 +1,5 @@
-﻿using FootTeamTracker.Web.ViewModels;
+﻿using FootTeamTracker.Services.Models.Interfaces;
+using FootTeamTracker.Web.ViewModels;
 using FootTeamTracker.Web.ViewModels.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
@@ -7,27 +8,34 @@ namespace FootTeamTracker.Web.Controllers
 {
 	public class HomeController : Controller
 	{
-		private readonly ILogger<HomeController> _logger;
+		private readonly ITeamService teamService;
 
-		public HomeController(ILogger<HomeController> logger)
+		public HomeController(ITeamService teamService)
 		{
-			_logger = logger;
+			this.teamService = teamService;
 		}
 
-		public IActionResult Index()
+		public async Task<IActionResult> Index()
 		{
+			IEnumerable<IndexViewModel> viewModel =
+				await teamService.TeamsByAlphabeticalAsync();
+
+			return View(viewModel);
+		}
+
+		public IActionResult Error(int statusCode)
+		{
+			if (statusCode == 400 || statusCode == 404)
+			{
+				return View("Error404");
+			}
+
+			if (statusCode == 401)
+			{
+				return View("Error401");
+			}
+
 			return View();
-		}
-
-		public IActionResult Privacy()
-		{
-			return View();
-		}
-
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-		public IActionResult Error()
-		{
-			return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
 		}
 	}
 }

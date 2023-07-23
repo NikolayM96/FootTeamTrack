@@ -10,3 +10,10 @@ C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\De
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\refint\FootTeamTracker.Web.ViewModels.dll
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.pdb
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\ref\FootTeamTracker.Web.ViewModels.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Common.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Data.Models.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Services.Mapping.dll
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Data.Models.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Services.Mapping.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\bin\Debug\net6.0\FootTeamTracker.Common.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.Web.ViewModels\obj\Debug\net6.0\FootTeamTracker.Web.ViewModels.csproj.CopyComplete

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "h8mGeF1mxlr/Tj6U3V2CiGZZakdknH8g9gQEuevi37I0Mpjr1E1DBx6ZYsYUdY4Cc+l3l90gv6qWeyGNF2XCHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Mapping\\FootTeamTracker.Services.Mapping.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Niki\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Niki\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2ntWkm/NyPZ3mig6qSV/o86yJt6rJw/P6uvw6iZhweBEnX51NyMSdgjxbEfSZNOMESa5/2KrxYBDNbrgcr3mmA==",
+  "dgSpecHash": "W1tfe5XsBz0fF3sKpUENMTxlSxaaO9vTveRvbNzblQfqMzYlfpuVInhlz1rqtqdOmqUG4mpmQrvrg8hMW8hZIA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.App\\FootTeamTracker.Web.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Niki\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Niki\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Niki\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Niki\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -78,7 +79,7 @@
     "C:\\Users\\Niki\\.nuget\\packages\\microsoft.codeanalysis.razor\\6.0.0\\microsoft.codeanalysis.razor.6.0.0.nupkg.sha512",
     "C:\\Users\\Niki\\.nuget\\packages\\microsoft.codeanalysis.scripting.common\\4.0.0\\microsoft.codeanalysis.scripting.common.4.0.0.nupkg.sha512",
     "C:\\Users\\Niki\\.nuget\\packages\\microsoft.codeanalysis.workspaces.common\\4.0.0\\microsoft.codeanalysis.workspaces.common.4.0.0.nupkg.sha512",
-    "C:\\Users\\Niki\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Niki\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Niki\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\Niki\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\Niki\\.nuget\\packages\\microsoft.diasymreader\\1.3.0\\microsoft.diasymreader.1.3.0.nupkg.sha512",

@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FootTeamTracker.Data.Models\FootTeamTracker.Data.Models.csproj" />
+    <ProjectReference Include="..\FootTeamTracker.Services.Mapping\FootTeamTracker.Services.Mapping.csproj" />
+  </ItemGroup>
+
 </Project>

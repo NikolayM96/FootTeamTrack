@@ -31,6 +31,12 @@
               "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj": {
                 "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj"
               },
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Data\\FootTeamTracker.Services.Data.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Data\\FootTeamTracker.Services.Data.csproj"
+              },
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Models\\FootTeamTracker.Services.Models.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Models\\FootTeamTracker.Services.Models.csproj"
+              },
               "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Web.Infrastructure\\FootTeamTracker.Web.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Web.Infrastructure\\FootTeamTracker.Web.Infrastructure.csproj"
               },
@@ -299,6 +305,184 @@
         }
       }
     },
+    "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Data\\FootTeamTracker.Services.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Data\\FootTeamTracker.Services.Data.csproj",
+        "projectName": "FootTeamTracker.Services.Data",
+        "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Data\\FootTeamTracker.Services.Data.csproj",
+        "packagesPath": "C:\\Users\\Niki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Niki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data\\FootTeamTracker.Data.csproj"
+              },
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Web.ViewModels\\FootTeamTracker.Web.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Web.ViewModels\\FootTeamTracker.Web.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Mapping\\FootTeamTracker.Services.Mapping.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Mapping\\FootTeamTracker.Services.Mapping.csproj",
+        "projectName": "FootTeamTracker.Services.Mapping",
+        "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Mapping\\FootTeamTracker.Services.Mapping.csproj",
+        "packagesPath": "C:\\Users\\Niki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Mapping\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Niki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Models\\FootTeamTracker.Services.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Models\\FootTeamTracker.Services.Models.csproj",
+        "projectName": "FootTeamTracker.Services.Models",
+        "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Models\\FootTeamTracker.Services.Models.csproj",
+        "packagesPath": "C:\\Users\\Niki\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Niki\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Web.Infrastructure\\FootTeamTracker.Web.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -383,7 +567,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data.Models\\FootTeamTracker.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Data.Models\\FootTeamTracker.Data.Models.csproj"
+              },
+              "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Mapping\\FootTeamTracker.Services.Mapping.csproj": {
+                "projectPath": "C:\\Users\\Niki\\source\\repos\\FootTeamTracker\\FootTeamTracker.Services.Mapping\\FootTeamTracker.Services.Mapping.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

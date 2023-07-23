@@ -21,6 +21,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\FootTeamTracker.Data\FootTeamTracker.Data.csproj" />
+    <ProjectReference Include="..\FootTeamTracker.Services.Data\FootTeamTracker.Services.Data.csproj" />
+    <ProjectReference Include="..\FootTeamTracker.Services.Models\FootTeamTracker.Services.Models.csproj" />
     <ProjectReference Include="..\FootTeamTracker.Web.Infrastructure\FootTeamTracker.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\FootTeamTracker.Web.ViewModels\FootTeamTracker.Web.ViewModels.csproj" />
   </ItemGroup>
