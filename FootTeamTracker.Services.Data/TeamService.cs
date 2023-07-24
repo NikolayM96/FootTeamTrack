@@ -1,6 +1,6 @@
 ﻿using FootTeamTracker.Data;
 using FootTeamTracker.Services.Models.Interfaces;
-using FootTeamTracker.Web.ViewModels.ViewModels;
+using FootTeamTracker.Web.ViewModels.Home;
 using Microsoft.EntityFrameworkCore;
 using FootTeamTracker.Services.Mapping;
 using System;
@@ -24,7 +24,6 @@ namespace FootTeamTracker.Services.Data
 			IEnumerable<IndexViewModel> teamsByName = await dbContext
 				.Teams
 				.OrderBy(t => t.Name)
-				.Take(4)
 				.To<IndexViewModel>()
 				.ToArrayAsync();
 

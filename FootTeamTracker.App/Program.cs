@@ -6,7 +6,7 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using FootTeamTracker.Web.Infrastructure.Extensions;
 using FootTeamTracker.Services.Models.Interfaces;
 using FootTeamTracker.Services.Mapping;
-using FootTeamTracker.Web.ViewModels.ViewModels;
+using FootTeamTracker.Web.ViewModels.Home;
 using System.Reflection;
 
 namespace FootTeamTracker.Web
@@ -46,10 +46,10 @@ namespace FootTeamTracker.Web
 
 			builder.Services.AddApplicationServices(typeof(ITeamService));
 
-			
+            
 
 
-			builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+            builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 			//builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = false)
 			//	.AddEntityFrameworkStores<FootTeamTrackerDbContext>();

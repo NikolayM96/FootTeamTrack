@@ -4015,8 +4015,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "FootTeamTracker.Common": "1.0.0",
-          "Microsoft.Extensions.Identity.Stores": "6.0.13"
+          "FootTeamTracker.Common": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FootTeamTracker.Data.Models.dll": {}

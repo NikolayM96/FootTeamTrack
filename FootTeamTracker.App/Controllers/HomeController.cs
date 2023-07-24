@@ -1,6 +1,6 @@
 ﻿using FootTeamTracker.Services.Models.Interfaces;
 using FootTeamTracker.Web.ViewModels;
-using FootTeamTracker.Web.ViewModels.ViewModels;
+using FootTeamTracker.Web.ViewModels.Home;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

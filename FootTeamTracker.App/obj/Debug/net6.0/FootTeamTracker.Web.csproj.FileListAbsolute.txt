@@ -272,3 +272,4 @@ C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Data.pdb
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Models.pdb
 C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\bin\Debug\net6.0\FootTeamTracker.Services.Mapping.pdb
+C:\Users\Niki\source\repos\FootTeamTracker\FootTeamTracker.App\obj\Debug\net6.0\FootTeamTracker.Web.MvcApplicationPartsAssemblyInfo.cs

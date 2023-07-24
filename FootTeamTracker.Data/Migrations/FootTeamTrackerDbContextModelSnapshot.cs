@@ -102,6 +102,16 @@ namespace FootTeamTracker.Data.Migrations
                     b.Property<bool>("EmailConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
+
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(15)
+                        .HasColumnType("nvarchar(15)");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -253,7 +263,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 13,
                             AwayTeamName = "Barcelona",
-                            Date = new DateTime(2024, 2, 7, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5041),
+                            Date = new DateTime(2024, 2, 8, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7550),
                             HomeTeamName = "Arsenal",
                             StadiumId = 1
                         },
@@ -261,7 +271,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 14,
                             AwayTeamName = "Manchester United",
-                            Date = new DateTime(2024, 2, 29, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5092),
+                            Date = new DateTime(2024, 3, 1, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7609),
                             HomeTeamName = "Arsenal",
                             StadiumId = 1
                         },
@@ -269,7 +279,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 15,
                             AwayTeamName = "Barcelona",
-                            Date = new DateTime(2024, 2, 6, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5098),
+                            Date = new DateTime(2024, 2, 7, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7617),
                             HomeTeamName = "Real Madrid",
                             StadiumId = 1
                         },
@@ -277,7 +287,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 1,
                             AwayTeamName = "Barcelona",
-                            Date = new DateTime(2024, 3, 11, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5103),
+                            Date = new DateTime(2024, 3, 12, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7625),
                             HomeTeamName = "Arsenal",
                             StadiumId = 2
                         },
@@ -285,7 +295,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 2,
                             AwayTeamName = "PSG",
-                            Date = new DateTime(2024, 3, 13, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5110),
+                            Date = new DateTime(2024, 3, 14, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7636),
                             HomeTeamName = "Arsenal",
                             StadiumId = 2
                         },
@@ -293,7 +303,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 3,
                             AwayTeamName = "Barcelona",
-                            Date = new DateTime(2024, 3, 14, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5115),
+                            Date = new DateTime(2024, 3, 15, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7645),
                             HomeTeamName = "PSG",
                             StadiumId = 2
                         },
@@ -301,7 +311,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 4,
                             AwayTeamName = "Real Madrid",
-                            Date = new DateTime(2024, 9, 5, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5120),
+                            Date = new DateTime(2024, 9, 6, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7652),
                             HomeTeamName = "Arsenal",
                             StadiumId = 3
                         },
@@ -309,7 +319,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 5,
                             AwayTeamName = "PSG",
-                            Date = new DateTime(2024, 5, 17, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5125),
+                            Date = new DateTime(2024, 5, 18, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7660),
                             HomeTeamName = "Arsenal",
                             StadiumId = 3
                         },
@@ -317,7 +327,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 6,
                             AwayTeamName = "Real Madrid",
-                            Date = new DateTime(2024, 8, 25, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5132),
+                            Date = new DateTime(2024, 8, 26, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7672),
                             HomeTeamName = "Manchester United",
                             StadiumId = 3
                         },
@@ -325,7 +335,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 7,
                             AwayTeamName = "Barcelona",
-                            Date = new DateTime(2023, 10, 11, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5137),
+                            Date = new DateTime(2023, 10, 12, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7680),
                             HomeTeamName = "Arsenal",
                             StadiumId = 4
                         },
@@ -333,7 +343,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 8,
                             AwayTeamName = "PSG",
-                            Date = new DateTime(2023, 10, 20, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5142),
+                            Date = new DateTime(2023, 10, 21, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7687),
                             HomeTeamName = "Manchester United",
                             StadiumId = 4
                         },
@@ -341,7 +351,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 9,
                             AwayTeamName = "Barcelona",
-                            Date = new DateTime(2024, 12, 3, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5146),
+                            Date = new DateTime(2024, 12, 4, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7695),
                             HomeTeamName = "Arsenal",
                             StadiumId = 4
                         },
@@ -349,7 +359,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 10,
                             AwayTeamName = "Barcelona",
-                            Date = new DateTime(2024, 1, 29, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5151),
+                            Date = new DateTime(2024, 1, 30, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7703),
                             HomeTeamName = "Arsenal",
                             StadiumId = 5
                         },
@@ -357,7 +367,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 11,
                             AwayTeamName = "PSG",
-                            Date = new DateTime(2024, 2, 28, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5156),
+                            Date = new DateTime(2024, 2, 29, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7710),
                             HomeTeamName = "Arsenal",
                             StadiumId = 5
                         },
@@ -365,7 +375,7 @@ namespace FootTeamTracker.Data.Migrations
                         {
                             Id = 12,
                             AwayTeamName = "Barcelona",
-                            Date = new DateTime(2023, 10, 27, 21, 28, 43, 773, DateTimeKind.Local).AddTicks(5161),
+                            Date = new DateTime(2023, 10, 28, 23, 56, 18, 98, DateTimeKind.Local).AddTicks(7718),
                             HomeTeamName = "PSG",
                             StadiumId = 5
                         });
@@ -785,109 +795,109 @@ namespace FootTeamTracker.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("9e3dc5a5-f071-4612-b12d-aff54de53d2d"),
+                            Id = new Guid("64b18b2b-765f-472e-9ce7-57090eb97f69"),
                             IsReserved = false,
                             StadiumId = 1
                         },
                         new
                         {
-                            Id = new Guid("c0ecc93e-354f-4162-a2b9-f440b0108b4b"),
+                            Id = new Guid("e0daf9c7-8896-4ca8-b390-940caa84f136"),
                             IsReserved = false,
                             StadiumId = 1
                         },
                         new
                         {
-                            Id = new Guid("1792adaa-353f-427e-aa87-ac9e40380930"),
+                            Id = new Guid("442bd98b-9fa0-4714-ace2-031d0c2ff130"),
                             IsReserved = false,
                             StadiumId = 1
                         },
                         new
                         {
-                            Id = new Guid("56b2a520-1063-4b75-8368-cd04fc6c32e9"),
+                            Id = new Guid("d784bad6-2144-4944-9ed5-73b123747767"),
                             IsReserved = false,
                             StadiumId = 1
                         },
                         new
                         {
-                            Id = new Guid("8719a440-0d83-4bcf-bb94-6b1b635f421b"),
+                            Id = new Guid("9a83667f-8413-4170-b5ed-6ac25642e91a"),
                             IsReserved = false,
                             StadiumId = 2
                         },
                         new
                         {
-                            Id = new Guid("f9285faa-98cb-45da-b7aa-aed62f3d7c3f"),
+                            Id = new Guid("a962d8b2-2efd-4bee-920a-bcc4cccabc00"),
                             IsReserved = false,
                             StadiumId = 2
                         },
                         new
                         {
-                            Id = new Guid("83290e5a-bc34-4afe-b8a8-3676ae5f0c35"),
+                            Id = new Guid("c9d18dde-92ae-43fd-82eb-5f7998cc0cbd"),
                             IsReserved = false,
                             StadiumId = 2
                         },
                         new
                         {
-                            Id = new Guid("f4f7d341-f05b-4624-ba98-2e46585337da"),
+                            Id = new Guid("6a933b09-6841-4115-a50d-2af0921163e9"),
                             IsReserved = false,
                             StadiumId = 2
                         },
                         new
                         {
-                            Id = new Guid("3241f2bb-ca45-4544-a500-0d09e6913d7e"),
+                            Id = new Guid("d1d21b9c-a4df-4b2b-b6b0-b0551300d924"),
                             IsReserved = false,
                             StadiumId = 3
                         },
                         new
                         {
-                            Id = new Guid("8e789b53-78e7-4c6b-8267-8d9531d09bfd"),
+                            Id = new Guid("b401899c-d549-4307-9f84-20bf8c509769"),
                             IsReserved = false,
                             StadiumId = 3
                         },
                         new
                         {
-                            Id = new Guid("9fbc0007-740f-4200-8be4-2d7b5084f290"),
+                            Id = new Guid("9751c6dd-958e-4de2-8651-998ff9d613a3"),
                             IsReserved = false,
                             StadiumId = 3
                         },
                         new
                         {
-                            Id = new Guid("d18827a9-4b5a-41c3-af03-ea73547570f2"),
+                            Id = new Guid("476240c9-9c44-40e9-be59-ad3e2df75d77"),
                             IsReserved = false,
                             StadiumId = 3
                         },
                         new
                         {
-                            Id = new Guid("1b6e7a98-d40f-41f5-8eb5-d69c818a98b5"),
+                            Id = new Guid("703898d2-54f6-4253-98e9-0d558c3031e8"),
                             IsReserved = false,
                             StadiumId = 4
                         },
                         new
                         {
-                            Id = new Guid("b14a791c-206b-48d0-9e71-c3d12aaca728"),
+                            Id = new Guid("6f64097d-c713-49ac-b899-3259723b1a54"),
                             IsReserved = false,
                             StadiumId = 4
                         },
                         new
                         {
-                            Id = new Guid("c63a8a13-ac8b-4a1b-97da-7c71cbe63401"),
+                            Id = new Guid("9cd75bce-23fd-4b4a-9f0d-28c221752bed"),
                             IsReserved = false,
                             StadiumId = 4
                         },
                         new
                         {
-                            Id = new Guid("1394170d-5678-4e86-9604-b010d584c4e5"),
+                            Id = new Guid("9b68fd76-7da6-4054-85d1-7b0ade6b793d"),
                             IsReserved = false,
                             StadiumId = 5
                         },
                         new
                         {
-                            Id = new Guid("dede3d93-7e4f-4421-96b9-17c221e186e7"),
+                            Id = new Guid("281f15c8-b8c2-4cb1-bd87-49beb77615e9"),
                             IsReserved = false,
                             StadiumId = 5
                         },
                         new
                         {
-                            Id = new Guid("422060de-7ec0-461a-899a-e1cd2116e6d5"),
+                            Id = new Guid("df1cbc9e-9e92-4aa3-a4ee-da7d8eb76960"),
                             IsReserved = false,
                             StadiumId = 5
                         });

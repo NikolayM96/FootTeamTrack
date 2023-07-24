@@ -1,4 +1,4 @@
-﻿namespace FootTeamTracker.Web.ViewModels.ViewModels
+﻿namespace FootTeamTracker.Web.ViewModels.Home
 {
 
 	public class ErrorViewModel

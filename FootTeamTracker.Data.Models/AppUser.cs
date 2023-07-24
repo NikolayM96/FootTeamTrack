@@ -8,11 +8,19 @@ using System.Threading.Tasks;
 
 namespace FootTeamTracker.Data.Models
 {
+	using static FootTeamTracker.Common.EntityValidationConstants.User;
 	public class AppUser : IdentityUser<Guid>
 	{
-     
 
-        public virtual ICollection<Team>? FavouriteTeams { get; set;} = new HashSet<Team>();
+		[Required]
+		[MaxLength(FirstNameMaxLength)]
+		public string FirstName { get; set; } = null!;
+
+		[Required]
+		[MaxLength(LastNameMaxLength)]
+		public string LastName { get; set; } = null!;
+
+		public virtual ICollection<Team>? FavouriteTeams { get; set;} = new HashSet<Team>();
 
         public virtual ICollection<Player>? FavouritePlayers { get; set; } = new HashSet<Player>();
 

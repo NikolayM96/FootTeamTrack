@@ -1,4 +1,4 @@
-﻿using FootTeamTracker.Web.ViewModels.ViewModels;
+﻿using FootTeamTracker.Web.ViewModels.Home;	
 using System;
 using System.Collections.Generic;
 using System.Linq;
